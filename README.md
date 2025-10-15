@@ -1,8 +1,8 @@
 
 <div align="center" width="50">
 
-<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/images/hellocoders_rounded.gif?raw=true" href="https://github.com/KamradSmeshnyavy" alt="Hello Coders" width="60%"/> <br>
-<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/images/dev-working_rounded.gif?raw=true" href="https://github.com/KamradSmeshnavy" alt="Workspace"  width="40%"/><br>
+<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/hellocoders_rounded.gif?raw=true" href="https://github.com/KamradSmeshnyavy" alt="Hello Coders" width="60%"/> <br>
+<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/KamradSmeshnavy" alt="Workspace"  width="40%"/><br>
 
 <details>
 <p><strong> <summary>  Busy coding & Vibing to :   </summary> </strong></p>
@@ -11,9 +11,6 @@
 
 </details>
 
-[Totals Hits]
-(https://komarev.com/ghpvc/?username=SP-XD&style=flat&color=orange&label=PROFILE+VIEWS)
-<!-- ![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSP-XD&count_bg=%2379C83D&title_bg=%23555555&icon=mediafire.svg&icon_color=%23E7E7E7&title=HITS&edge_flat=false) -->
 [![telegram badge](https://img.shields.io/badge/SP-XD-grey?style=flat&logo=telegram)](https://t.me/Deny_kamrad_smeshnyavy) <br>
 </div>
 
@@ -55,21 +52,21 @@
 
 class About extends Me {
   const myTools = {
-    "ProgramingLanguages" : { "Dart", "Go", "Python", "Javascript", "Java", "c++" },
-    "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Markdown" },
-    "Database" : { "Firebase", "Sqlite", "PostgreSql" },
-    "Editors" : { "Vscode", "Xcode", "Sublime", "Neovim" },
+    "ProgramingLanguages" : { "C", "", "Python", "Javascript", "Rust", "C++", "Avr Asm", "ARM64", },
+    "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Markdown", "Lua", "Nix", "Makefile/CMake", },
+    "Database" : { "Firebase", "Sqlite", "PostgreSql", },
+    "Editors" : { "Vscode", "Xcode", "Neovim" },
     "Platforms" : { "Mac", "GNU/Linux", "Windows" },
-    "OtherTools" : { "Git", "Figma", "Photoshop", "Gimp", "Lightroom" }
+    "OtherTools" : { "Git", "Figma", "Gimp", "Lightroom" }
   };
 }
 ```
 
-- <img alt="GIF" src=/https://github.com/KamradSmeshnyavy/main/images/Developer.gif" width="25" /> &nbsp; I’m currently learning **Frappe**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
-- <img src="https://github.com/KamradSmeshnyavy//images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **GNU/Linux**. <br>
-- <img src="https://github.com/SP-XD/SP-XD/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Pc building, Movies, or anything**. <br>
-- <img src="https://github.com/SP-XD/SP-XD/blob/main/images/letterbox.gif?raw=true" width="25" /> &nbsp; Find me on Telegram: **[丂𝙋⚡乂𝘿](https://t.me/WeekDaysSmeshnyavy)**<br>
-- &nbsp;&nbsp;<img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: Banging your head against a wall for one hour burns **150 calories**.<br>
+- <img alt="GIF" src="/https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m currently learning **Frappe**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
+- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **GNU/Linux**. <br>
+- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Pc building, Movies, or anything**. <br>
+- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/letterbox.gif?raw=true" width="25" /> &nbsp; Find me on Telegram: **[WeekDays](https://t.me/WeekDaysSmeshnyavy)**<br>
+- &nbsp;&nbsp;<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: Banging your head against a wall for one hour burns **150 calories**.<br>
 
 <div align="center" >
 <a  href="https://github.com/KamradSmeshnyavy">
