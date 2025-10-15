@@ -3,9 +3,9 @@
 
 <!-- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/hellocoders_rounded.gif?raw=true" href="https://github.com/KamradSmeshnyavy" alt="Hello Coders" width="60%"/> <br> -->
 <!-- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/KamradSmeshnavy" alt="Workspace"  width="40%"/><br> -->
-<a href="https://{PA_USERNAME}.pythonanywhere.com/link">
+<a href="https://kamradsmeshnyavy.pythonanywhere.com/link">
   <img
-    src="https://{PA_USERNAME}.pythonanywhere.com"
+    src="https://kamradsmeshnyavy.pythonanywhere.com"
     alt="Current Spotify Song"
   />
 </a>
