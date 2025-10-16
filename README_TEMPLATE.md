@@ -21,7 +21,6 @@
 
 <hr></hr>
 
-<div width="28">
 
 ![tools_I_use](https://img.shields.io/badge/-%F0%9F%9A%80%20Tools%20I%20use-orange)
 ![semicolon](https://img.shields.io/badge/-%3A-orange)
@@ -35,7 +34,7 @@
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-![ARM](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-96CEB4?style=for-the-badge&logo=arm&logoColor=white&labelColor=1C1C1C)
+![ARM](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-96CEB4?style=flat&logo=rust&logoColor=white)
 
 
 
@@ -58,7 +57,7 @@
 <!-- ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) -->
 ![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![Chakra-UI](https://img.shields.io/badge/Chakra--UI-319795?style=flat&logo=chakra-ui&logoColor=white)
-</div>
+
 ```dart
 // tools_I_use organized
 
