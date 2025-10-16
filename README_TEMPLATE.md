@@ -7,7 +7,7 @@
   <img
     src="https://kamradsmeshnyavy.pythonanywhere.com"
     alt="Current Spotify Song" -->
-  />
+
 </a>
 <details>
 <p><strong> <summary>  Busy coding & Vibing to :   </summary> </strong></p>
