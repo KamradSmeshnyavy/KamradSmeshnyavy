@@ -35,7 +35,7 @@
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 ![ARM](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-96CEB4?style=for-the-badge&logo=arm&logoColor=white&labelColor=1C1C1C)
-<img src ='/Arm Icon.png'>
+<img src ='/Arm Icon.png' width="28" >
 
 
 ![Json](https://img.shields.io/badge/json-5E5C5C?style=flat&logo=json&logoColor=white)
