@@ -34,7 +34,7 @@
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-![ARM](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-96CEB4?style=flat&logo=rust&logoColor=white)
+![ARM](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-96CEB4?style=flat&logo=&logoColor=white)
 
 
 
