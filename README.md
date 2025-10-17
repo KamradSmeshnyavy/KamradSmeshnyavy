@@ -16,7 +16,7 @@
 
 </details>
 
-[![telegram badge](https://img.shields.io/badge/SP-XD-grey?style=flat&logo=telegram)](https://t.me/Deny_kamrad_smeshnyavy) <br>
+[![telegram badge](https://img.shields.io/badge/Deny-grey?style=flat&logo=telegram)](https://t.me/Deny_kamrad_smeshnyavy) <br>
 </div>
 
 <hr></hr>
