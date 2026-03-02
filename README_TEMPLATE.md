@@ -65,7 +65,7 @@
 
 class About extends Me {
   const myTools = {
-    "ProgramingLanguages" : { "C", "Python", "Javascript", "Rust", "C++", "ARM64", "Avr Asm" },
+    "ProgramingLanguages" : { "C", "Python", "Javascript", "Rust", "C++", "ARM64", "Avr Asm", "x86-64 ASM" },
     "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Lua", "Nix", "Markdown" },
     "Database" : { "Firebase", "Sqlite", "PostgreSql", },
     "Editors" : { "Vscode", "Xcode", "Neovim" },
