@@ -1,112 +1,191 @@
 
-<div align="center" width="50">
+<div align="center">
 
-<!-- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/hellocoders_rounded.gif?raw=true" href="https://github.com/KamradSmeshnyavy" alt="Hello Coders" width="60%"/> <br> -->
-<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/dev-working_rounded.gif?raw=true" href="https://github.com/KamradSmeshnavy" alt="Workspace"  width="40%"/><br>
-<!-- <a href="https://kamradsmeshnyavy.pythonanywhere.com/link">
-  <img
-    src="https://kamradsmeshnyavy.pythonanywhere.com"
-    alt="Current Spotify Song" -->
-
-</a>
-<details>
-<p><strong> <summary>  Busy coding & Vibing to :   </summary> </strong></p>
-
-[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966) <be>
-
-</details>
-
-[![telegram badge](https://img.shields.io/badge/Deny-grey?style=flat&logo=telegram)](https://t.me/Deny_kamrad_smeshnyavy) <br>
-</div>
-
-<hr></hr>
-
-
-![tools_I_use](https://img.shields.io/badge/-%F0%9F%9A%80%20Tools%20I%20use-orange)
-![semicolon](https://img.shields.io/badge/-%3A-orange)
-<!-- ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat&logo=go&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white) -->
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=flat&logo=python&logoColor=darkgreen)
-![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-![ARM](https://img.shields.io/badge/Architecture-x64%20%7C%20ARM64-96CEB4?style=flat&logo=&logoColor=white)
-<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/Assembly AVR Icon.svg?raw=true" width="20"/>
-
-
-
-![Json](https://img.shields.io/badge/json-5E5C5C?style=flat&logo=json&logoColor=white)
-![Html](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![Css](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=flat&logo=GNU%20Bash&logoColor=white)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat&logo=lua&logoColor=white)
-![Nix](https://img.shields.io/badge/nix-B6AAF5?logo=nixos&logoColor=20213A&style=flat)
-![GNU/Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=flat&logo=visual%20studio%20code&logoColor=white)
-![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?&style=flat&logo=sublime-text&logoColor=important)
-![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=flat&logo=neovim&logoColor=white)
-![PostGreSql](https://img.shields.io/badge/postgresql-4169e1?style=style=flat&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-ffca28?style=flat&logo=firebase&logoColor=black)
-![Sqlite](https://img.shields.io/badge/SQLite-07405E?style=flat&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=flat&logo=git&logoColor=white)
-<!-- ![Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=flat&logo=Adobe%20Photoshop&logoColor=black) -->
-![Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF?style=flat&logo=Adobe%20Lightroom&logoColor=white)
-![Gimp](https://img.shields.io/badge/gimp-5C5543?style=flat&logo=gimp&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-<!-- ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white) -->
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
-![Chakra-UI](https://img.shields.io/badge/Chakra--UI-319795?style=flat&logo=chakra-ui&logoColor=white)
-
-```dart
-// tools_I_use organized
-
-class About extends Me {
-  const myTools = {
-    "ProgramingLanguages" : { "C", "Python", "Javascript", "Rust", "C++", "ARM64", "Avr Asm", "x86-64 ASM" },
-    "OtherLanguages" : { "HTML", "CSS", "Bash", "Json", "Lua", "Nix", "Markdown" },
-    "Database" : { "Firebase", "Sqlite", "PostgreSql", },
-    "Editors" : { "Vscode", "Xcode", "Neovim" },
-    "Platforms" : { "Mac", "GNU/Linux", "Windows" },
-    "OtherTools" : { "Git", "Figma", "Gimp", "Lightroom" }
-  };
-}
+```
+ ██████╗ █████╗ ███╗   ██╗██████╗  █████╗ ██████╗
+██╔════╝██╔══██╗████╗ ████║██╔══██╗██╔══██╗██╔══██╗
+██║     ███████║██╔████╔██║██████╔╝███████║██║  ██║
+██║     ██╔══██║██║╚██╔╝██║██╔══██╗██╔══██║██║  ██║
+╚██████╗██║  ██║██║ ╚═╝ ██║██║  ██║██║  ██║██████╔╝
+ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
 ```
 
-- <img alt="GIF" src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/Developer.gif" width="25" /> &nbsp; I’m currently learning **InfoSec**. <img align="right" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Penguin.png" alt="Penguin" width="15%" /><br>
-- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/hyperkitty.gif?raw=true" width="20" />&nbsp;&nbsp;&nbsp; I like exploring **GNU/Linux**. <br>
-- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/message.gif?raw=true" width="25" />&nbsp;&nbsp; Ask me about **Pc building, Movies, or anything**. <br>
-- <img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/letterbox.gif?raw=true" width="25" /> &nbsp; Find me on Telegram: **[WeekDays](https://t.me/WeekDaysSmeshnyavy)**<br>
-- &nbsp;&nbsp;<img src="https://github.com/KamradSmeshnyavy/KamradSmeshnyavy/blob/main/images/lightning.gif?raw=true" width="12" />&nbsp;&nbsp;&nbsp;&nbsp;Fun fact: Banging your head against a wall for one hour burns **150 calories**.<br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%24+whoami;Malware+Researcher+%7C+Reverse+Engineer+%7C+Low-Level+Dev" alt="Typing SVG" />
 
-<div align="center" >
-<a  href="https://github.com/KamradSmeshnyavy">
-<!--
-<img src="https://raw.githubusercontent.com/KamradSmeshnyavy/profile-summary-cards/master/profile-summary-card-output/nord_dark/3-stats.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/KamradSmeshnyavy/profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/KamradSmeshnyavy/profile-summary-cards/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" width="32.5%"> -->
+<br>
 
-</a>
+```
+┌──────────────────────────────────────────────────────────┐
+│  [*] STATUS: ACTIVE          [*] THREAT LEVEL: ELEVATED  │
+│  [*] LOCATION: /dev/null     [*] UPTIME: ∞               │
+└──────────────────────────────────────────────────────────┘
+```
+
+[![telegram badge](https://img.shields.io/badge/Telegram-@Deny-000000?style=flat-square&logo=telegram&logoColor=00FF41)](https://t.me/Deny_kamrad_smeshnyavy)
+[![Spotify](https://img.shields.io/badge/Spotify-Vibing-000000?style=flat-square&logo=spotify&logoColor=00FF41)](https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966)
+
+</div>
+
+---
+
+### `> cat /proc/self/about`
+
+```brainfuck
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]   // init
+
+I don't create malware. I dissect it.
+I don't break systems. I understand how they break.
+Low-level is not a skill level — it's where the real code lives.
+```
+
+- 🔬 Currently focused on **Malware Analysis** & **Reverse Engineering**
+- 🐧 Deep into **GNU/Linux internals** & **kernel exploitation**
+- 🦀 Writing tools in **Rust**, **C**, and **x86-64 ASM**
+- 💀 Analyzing binaries, unpacking samples, tracing syscalls
+- ⚡ Fun fact: `rm -rf /` doesn't work without `--no-preserve-root`
+
+---
+
+### `> cat /etc/arsenal`
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                    ◈ OFFENSIVE TOOLKIT ◈                     ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+![C](https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=00FF41)
+![C++](https://img.shields.io/badge/C%2B%2B-000000?style=flat-square&logo=c%2B%2B&logoColor=00FF41)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=00FF41)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00FF41)
+![x86 ASM](https://img.shields.io/badge/x86--64_ASM-000000?style=flat-square&logo=intel&logoColor=00FF41)
+![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat-square&logo=arm&logoColor=00FF41)
+![AVR ASM](https://img.shields.io/badge/AVR_ASM-000000?style=flat-square&logoColor=00FF41)
+![Bash](https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=00FF41)
+![Lua](https://img.shields.io/badge/Lua-000000?style=flat-square&logo=lua&logoColor=00FF41)
+![Nix](https://img.shields.io/badge/Nix-000000?style=flat-square&logo=nixos&logoColor=00FF41)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=00FF41)
+![HTML](https://img.shields.io/badge/HTML-000000?style=flat-square&logo=html5&logoColor=00FF41)
+![CSS](https://img.shields.io/badge/CSS-000000?style=flat-square&logo=css3&logoColor=00FF41)
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                  ◈ ANALYSIS & RECON TOOLS ◈                  ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+![Linux](https://img.shields.io/badge/GNU%2FLinux-000000?style=flat-square&logo=linux&logoColor=00FF41)
+![Neovim](https://img.shields.io/badge/Neovim-000000?style=flat-square&logo=neovim&logoColor=00FF41)
+![VS Code](https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=00FF41)
+![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=00FF41)
+![SQLite](https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=00FF41)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=00FF41)
+![Firebase](https://img.shields.io/badge/Firebase-000000?style=flat-square&logo=firebase&logoColor=00FF41)
+![Figma](https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=00FF41)
+![GIMP](https://img.shields.io/badge/GIMP-000000?style=flat-square&logo=gimp&logoColor=00FF41)
+
+---
+
+### `> objdump -d ./skills.bin`
+
+```nasm
+; ===============================================
+; DISASSEMBLY OF skills.bin
+; Architecture: x86-64 | ARM64 | AVR
+; ===============================================
+
+section .data
+    arsenal:
+        languages       db "C, C++, Rust, Python, x86-64 ASM, ARM64, AVR ASM"
+        scripting       db "Bash, Lua, Nix, JavaScript"
+        markup          db "HTML, CSS, JSON, Markdown"
+
+    tools:
+        analysis        db "IDA Pro, Ghidra, radare2, x64dbg, gdb"
+        monitoring      db "Wireshark, tcpdump, strace, ltrace, procmon"
+        exploitation    db "pwntools, ROPgadget, msfvenom, angr"
+
+    platforms:
+        primary         db "GNU/Linux (Arch, Debian, NixOS)"
+        secondary       db "Windows (for malware sandboxing)"
+        editors         db "Neovim, VS Code"
+
+    databases:
+        storage         db "SQLite, PostgreSQL, Firebase"
+
+section .text
+    global _start
+_start:
+    ; >> CURRENT OBJECTIVE: understand the threat landscape
+    mov rax, 0x1337
+    lea rdi, [rel arsenal]
+    call analyze_sample
+    jmp _start              ; never stop learning
+```
+
+---
+
+<div align="center">
+
+### `> tail -f /var/log/activity.log`
+
+```
+[2024-XX-XX 03:14:15] [INFO]  Reversing packed PE binary...
+[2024-XX-XX 03:14:16] [WARN]  Anti-debug detected: IsDebuggerPresent()
+[2024-XX-XX 03:14:17] [INFO]  Bypassing... patching ZwQueryInformationProcess
+[2024-XX-XX 03:14:18] [OK]    Unpacked successfully. Dumping to disk...
+[2024-XX-XX 03:14:19] [INFO]  Extracting C2 config from .rdata section
+[2024-XX-XX 03:14:20] [OK]    IOCs extracted. Writing YARA rule...
+[2024-XX-XX 03:14:21] [INFO]  ████████████████████████████ 100%
+[2024-XX-XX 03:14:22] [OK]    Analysis complete. Report generated.
+```
+
+<br>
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                                                         │
+│   "The quieter you become,                              │
+│        the more you are able to hear."                  │
+│                                          — Kali Linux   │
+│                                                         │
+└─────────────────────────────────────────────────────────┘
+```
 
 <details>
-  <summary>More stats</summary>
+<summary> <b>📡 Spotify C2 Beacon</b> </summary>
+<br>
 
-<!-- <img align="center" src="https://raw.githubusercontent.com/KamradSmeshnyavy/profile-summary-cards/master/profile-summary-card-output/nord_dark/0-profile-details.svg" > -->
+[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966)
 
 </details>
 
-<hr></hr>
+---
 
-**Code Cycle**<br>
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Spiral%20Eyes.png" width="8%" alt="Segfault"/>
+&nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="8%" alt="It compiles"/>
+&nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="8%" alt="But how?"/>
 
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Spiral%20Eyes.png" width="10%" alt="Broken system!"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="10%" alt="It's working!"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="10%" alt="It's working but you don't know how!"/><br>
+```
+SEGFAULT → IT COMPILES → BUT HOW?!     (the eternal cycle)
+```
 
-<!--img src="https://github.com/SP-XD/SP-XD/blob/main/images/this_page_is.gif?raw=true"  width="40%"/-->
+<br>
+
+```
+$ echo "EOF" && exit 0
+```
+
+![Snake animation](https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-contribution-grid-snake-dark.svg)
 
 </div>
