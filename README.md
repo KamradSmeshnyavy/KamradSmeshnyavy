@@ -69,6 +69,7 @@ Low-level is not a skill level — it's where the real code lives.
 ![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat-square&logo=arm&logoColor=00FF41)
 ![AVR ASM](https://img.shields.io/badge/AVR_ASM-000000?style=flat-square&logoColor=00FF41)
 ![Bash](https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=00FF41)
+![Nushell](https://img.shields.io/badge/Nushell-000000?style=flat-square&logo=nushell&logoColor=00FF41)
 ![Lua](https://img.shields.io/badge/Lua-000000?style=flat-square&logo=lua&logoColor=00FF41)
 ![Nix](https://img.shields.io/badge/Nix-000000?style=flat-square&logo=nixos&logoColor=00FF41)
 ![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=00FF41)
