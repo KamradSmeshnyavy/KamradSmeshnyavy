@@ -109,7 +109,7 @@ Low-level is not a skill level — it's where the real code lives.
 section .data
     arsenal:
         languages       db "C, C++, Rust, Python, x86-64 ASM, ARM64, AVR ASM"
-        scripting       db "Bash, Lua, Nix, JavaScript"
+        scripting       db "Bash, Nushell, Lua, Nix, JavaScript"
         markup          db "HTML, CSS, JSON, Markdown"
 
     tools:
