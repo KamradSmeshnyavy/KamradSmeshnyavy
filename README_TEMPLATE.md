@@ -85,15 +85,35 @@ Low-level is not a skill level — it's where the real code lives.
 
 </div>
 
+![BlackArch](https://img.shields.io/badge/BlackArch-000000?style=flat-square&logo=archlinux&logoColor=00FF41)
+![IDA Pro](https://img.shields.io/badge/IDA_Pro-000000?style=flat-square&logoColor=00FF41)
+![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=flat-square&logoColor=00FF41)
+![radare2](https://img.shields.io/badge/radare2-000000?style=flat-square&logoColor=00FF41)
+![x64dbg](https://img.shields.io/badge/x64dbg-000000?style=flat-square&logoColor=00FF41)
+![GDB](https://img.shields.io/badge/GDB-000000?style=flat-square&logo=gnu&logoColor=00FF41)
+![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=flat-square&logo=wireshark&logoColor=00FF41)
+![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square&logo=nmap&logoColor=00FF41)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=flat-square&logo=burpsuite&logoColor=00FF41)
+![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=flat-square&logo=metasploit&logoColor=00FF41)
+![pwntools](https://img.shields.io/badge/pwntools-000000?style=flat-square&logo=python&logoColor=00FF41)
+![angr](https://img.shields.io/badge/angr-000000?style=flat-square&logo=python&logoColor=00FF41)
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║                ◈ PLATFORMS & ENVIRONMENTS ◈                  ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
 ![Linux](https://img.shields.io/badge/GNU%2FLinux-000000?style=flat-square&logo=linux&logoColor=00FF41)
 ![Neovim](https://img.shields.io/badge/Neovim-000000?style=flat-square&logo=neovim&logoColor=00FF41)
 ![VS Code](https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=00FF41)
 ![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=00FF41)
 ![SQLite](https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=00FF41)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=00FF41)
-![Firebase](https://img.shields.io/badge/Firebase-000000?style=flat-square&logo=firebase&logoColor=00FF41)
-![Figma](https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=00FF41)
-![GIMP](https://img.shields.io/badge/GIMP-000000?style=flat-square&logo=gimp&logoColor=00FF41)
 
 ---
 
