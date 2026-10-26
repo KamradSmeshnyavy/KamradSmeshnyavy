@@ -6,9 +6,9 @@
   <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
   <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
-    <stop offset="0" stop-color="#4F6355"/>
-    <stop offset="0.5" stop-color="#00FF41"/>
-    <stop offset="1" stop-color="#4F6355"/>
+    <stop offset="0" stop-color="#6e6a86"/>
+    <stop offset="0.5" stop-color="#c4a7e7"/>
+    <stop offset="1" stop-color="#6e6a86"/>
     <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1300 0" dur="5s" repeatCount="indefinite"/>
   </linearGradient>
   <style>
@@ -19,10 +19,10 @@
     @keyframes br { 0%,100% {opacity:.55} 50% {opacity:1} }
   </style>
 </defs>
-<rect width="1000" height="170" rx="14" fill="#0a0a0a"/>
-<rect x="0.75" y="0.75" width="998.5" height="168.5" rx="14" fill="none" stroke="#00FF41" stroke-opacity="0.3" stroke-width="1.5"/>
+<rect width="1000" height="170" rx="14" fill="#191724"/>
+<rect x="0.75" y="0.75" width="998.5" height="168.5" rx="14" fill="none" stroke="#c4a7e7" stroke-opacity="0.3" stroke-width="1.5"/>
 <text x="500" y="40" text-anchor="middle" font-size="14" fill="url(#sweep)">|=-----------------------------------------=[ EOF ]=------------------------------------------=|</text>
-<text x="500" y="82" text-anchor="middle" font-size="13" fill="#00A82D"><tspan fill="#FFB000">--[ greetz</tspan>  phrack staff · the mentor · aleph one · liveoverflow · pwn.college · ctftime</text>
-<text x="500" y="112" text-anchor="middle" font-size="13" fill="#4F6355" class="breathe">"This is our world now... the world of the electron and the switch."</text>
-<text x="500" y="146" text-anchor="middle" font-size="13" fill="#C8FFD4"><tspan fill="#00FF41">kamrad@lab ~ $</tspan> exit<tspan class="cur" fill="#00FF41"> █</tspan></text>
+<text x="500" y="82" text-anchor="middle" font-size="13" fill="#9ccfd8"><tspan fill="#f6c177">--[ greetz</tspan>  phrack staff · the mentor · aleph one · liveoverflow · pwn.college · ctftime</text>
+<text x="500" y="112" text-anchor="middle" font-size="13" fill="#6e6a86" class="breathe">"This is our world now... the world of the electron and the switch."</text>
+<text x="500" y="146" text-anchor="middle" font-size="13" fill="#e0def4"><tspan fill="#c4a7e7">kamrad@lab ~ $</tspan> exit<tspan class="cur" fill="#c4a7e7"> █</tspan></text>
 </svg>

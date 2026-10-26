@@ -12,16 +12,18 @@ OUT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().paren
 OUT.mkdir(parents=True, exist_ok=True)
 
 FONT = "'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace"
-BG = "#0a0a0a"
-WIN = "#0d0f0d"
-GREEN = "#00FF41"
-DGREEN = "#00A82D"
-AMBER = "#FFB000"
-RED = "#FF3355"
-CYAN = "#00E5FF"
-MAGENTA = "#FF4FD8"
-FG = "#C8FFD4"
-DIM = "#4F6355"
+# Rosé Pine — https://rosepinetheme.com/palette
+BG = "#191724"       # base
+WIN = "#1f1d2e"      # surface
+OVERLAY = "#26233a"  # overlay
+MUTED = "#6e6a86"    # muted
+TEXT = "#e0def4"     # text
+LOVE = "#eb6f92"     # love
+GOLD = "#f6c177"     # gold
+ROSE = "#ebbcba"     # rose
+PINE = "#31748f"     # pine
+FOAM = "#9ccfd8"     # foam
+IRIS = "#c4a7e7"     # iris
 
 random.seed(0x1337)
 
@@ -109,15 +111,15 @@ def banner():
     <stop offset="0.55" stop-color="{BG}" stop-opacity="0.55"/>
     <stop offset="1" stop-color="{BG}" stop-opacity="0.15"/>
   </radialGradient>
-  <linearGradient id="logoG" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#9DFFB5"/>
-    <stop offset="0.5" stop-color="{GREEN}"/>
-    <stop offset="1" stop-color="{DGREEN}"/>
+  <linearGradient id="logoG" gradientUnits="userSpaceOnUse" x1="180" y1="0" x2="820" y2="0">
+    <stop offset="0" stop-color="{LOVE}"/>
+    <stop offset="0.5" stop-color="{IRIS}"/>
+    <stop offset="1" stop-color="{FOAM}"/>
   </linearGradient>
   <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="{GREEN}" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="{GREEN}" stop-opacity="0.07"/>
-    <stop offset="1" stop-color="{GREEN}" stop-opacity="0"/>
+    <stop offset="0" stop-color="{IRIS}" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="{IRIS}" stop-opacity="0.07"/>
+    <stop offset="1" stop-color="{IRIS}" stop-opacity="0"/>
   </linearGradient>
   <g id="logo">{logo}</g>
   <clipPath id="slice">
@@ -146,28 +148,28 @@ def banner():
 </defs>
 <g clip-path="url(#frame)">
   <rect width="{W}" height="{H}" fill="{BG}"/>
-  <g font-size="13" fill="{GREEN}">{"".join(rain)}</g>
+  <g font-size="13" fill="{IRIS}">{"".join(rain)}</g>
   <rect width="{W}" height="{H}" fill="url(#vig)"/>
   <g class="crt">
-    <text x="500" y="40" text-anchor="middle" font-size="15" fill="{FG}" letter-spacing="1">==Phrack Inc.==</text>
-    <text x="500" y="63" text-anchor="middle" font-size="12.5" fill="{AMBER}" fill-opacity="0.9">Volume 0x45, Issue 0x01, Phile #0x01 of 0x07</text>
+    <text x="500" y="40" text-anchor="middle" font-size="15" fill="{TEXT}" letter-spacing="1">==Phrack Inc.==</text>
+    <text x="500" y="63" text-anchor="middle" font-size="12.5" fill="{GOLD}" fill-opacity="0.9">Volume 0x45, Issue 0x01, Phile #0x01 of 0x07</text>
 
     <g font-size="22" font-weight="700">
-      <use href="#logo" class="gr" fill="{RED}"/>
-      <use href="#logo" class="gc" fill="{CYAN}"/>
+      <use href="#logo" class="gr" fill="{LOVE}"/>
+      <use href="#logo" class="gc" fill="{FOAM}"/>
       <use href="#logo" fill="url(#logoG)" filter="url(#glow)"/>
-      <g clip-path="url(#slice)" class="gs"><use href="#logo" fill="{FG}" transform="translate(14 0)"/></g>
+      <g clip-path="url(#slice)" class="gs"><use href="#logo" fill="{TEXT}" transform="translate(14 0)"/></g>
     </g>
 
-    <text x="500" y="256" text-anchor="middle" font-size="15" fill="{FG}" letter-spacing="1.5">malware research <tspan fill="{GREEN}">·</tspan> reverse engineering <tspan fill="{GREEN}">·</tspan> low-level dev<tspan class="cur" fill="{GREEN}"> █</tspan></text>
+    <text x="500" y="256" text-anchor="middle" font-size="15" fill="{TEXT}" letter-spacing="1.5">malware research <tspan fill="{IRIS}">·</tspan> reverse engineering <tspan fill="{IRIS}">·</tspan> low-level dev<tspan class="cur" fill="{IRIS}"> █</tspan></text>
 
-    <text x="28" y="300" font-size="12" fill="{DGREEN}">[+] uid=1337(kamrad) gid=0x41(reversers)</text>
-    <text x="972" y="300" text-anchor="end" font-size="12" fill="{DIM}">ELF 64-bit LSB · x86-64 · not stripped</text>
+    <text x="28" y="300" font-size="12" fill="{FOAM}">[+] uid=1337(kamrad) gid=0x41(reversers)</text>
+    <text x="972" y="300" text-anchor="end" font-size="12" fill="{MUTED}">ELF 64-bit LSB · x86-64 · not stripped</text>
   </g>
   <rect class="band" width="{W}" height="120" fill="url(#band)"/>
   <rect width="{W}" height="{H}" fill="url(#scan)" opacity="0.5"/>
 </g>
-<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="14" fill="none" stroke="{GREEN}" stroke-opacity="0.35" stroke-width="1.5"/>
+<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="14" fill="none" stroke="{IRIS}" stroke-opacity="0.35" stroke-width="1.5"/>
 </svg>
 """
 
@@ -196,9 +198,9 @@ def section(num, title):
 <defs>
   {GLOW}
   <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="0" y2="0">
-    <stop offset="0" stop-color="{DIM}"/>
-    <stop offset="0.5" stop-color="{GREEN}"/>
-    <stop offset="1" stop-color="{DIM}"/>
+    <stop offset="0" stop-color="{MUTED}"/>
+    <stop offset="0.5" stop-color="{IRIS}"/>
+    <stop offset="1" stop-color="{MUTED}"/>
     <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="{W + 260} 0" dur="4.5s" repeatCount="indefinite"/>
   </linearGradient>
   <style>
@@ -208,14 +210,14 @@ def section(num, title):
   </style>
 </defs>
 <rect width="{W}" height="{H}" rx="10" fill="{BG}"/>
-<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="10" fill="none" stroke="{GREEN}" stroke-opacity="0.18"/>
+<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="10" fill="none" stroke="{IRIS}" stroke-opacity="0.18"/>
 <text x="500" y="33" text-anchor="middle" font-size="14">{spans([
         ("|=" + "-" * left + "=", "url(#sweep)"),
-        ("[ ", GREEN),
-        (num, AMBER, 'font-weight="700"'),
-        (" :: ", DGREEN),
-        (title, GREEN, 'font-weight="700"'),
-        (" ]", GREEN),
+        ("[ ", IRIS),
+        (num, GOLD, 'font-weight="700"'),
+        (" :: ", FOAM),
+        (title, IRIS, 'font-weight="700"'),
+        (" ]", IRIS),
         ("=" + "-" * right + "=|", "url(#sweep)"),
     ])}</text>
 </svg>
@@ -242,16 +244,16 @@ def window(W, H, title, body, css, extra_defs=""):
 </defs>
 <g clip-path="url(#frame)">
   <rect width="{W}" height="{H}" fill="{WIN}"/>
-  <rect width="{W}" height="36" fill="#141714"/>
-  <rect y="36" width="{W}" height="1" fill="{GREEN}" fill-opacity="0.18"/>
-  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
-  <circle cx="42" cy="18" r="6" fill="#FEBC2E"/>
-  <circle cx="62" cy="18" r="6" fill="#28C840"/>
-  <text x="{W / 2}" y="23" text-anchor="middle" font-size="12.5" fill="{DIM}">{escape(title)}</text>
+  <rect width="{W}" height="36" fill="{OVERLAY}"/>
+  <rect y="36" width="{W}" height="1" fill="{IRIS}" fill-opacity="0.18"/>
+  <circle cx="22" cy="18" r="6" fill="{LOVE}"/>
+  <circle cx="42" cy="18" r="6" fill="{GOLD}"/>
+  <circle cx="62" cy="18" r="6" fill="{FOAM}"/>
+  <text x="{W / 2}" y="23" text-anchor="middle" font-size="12.5" fill="{MUTED}">{escape(title)}</text>
   {body}
   <rect width="{W}" height="{H}" fill="url(#scan)" opacity="0.35"/>
 </g>
-<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="12" fill="none" stroke="{GREEN}" stroke-opacity="0.3" stroke-width="1.5"/>
+<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="12" fill="none" stroke="{IRIS}" stroke-opacity="0.3" stroke-width="1.5"/>
 </svg>
 """
 
@@ -285,7 +287,7 @@ def sequence(lines, T, x0, y0, lh, fs, cw, bg):
             )
             body.append(
                 f'<g class="c{i}"><rect x="{cx}" y="{y - fs}" width="{width + 4:.1f}" height="{lh}" fill="{bg}"/>'
-                f'<rect x="{cx}" y="{y - fs + 3}" width="{cw:.1f}" height="{fs + 1}" fill="{GREEN}" opacity="0.85"/></g>'
+                f'<rect x="{cx}" y="{y - fs + 3}" width="{cw:.1f}" height="{fs + 1}" fill="{IRIS}" opacity="0.85"/></g>'
             )
     return "\n  ".join(body), "\n    ".join(css)
 
@@ -296,52 +298,52 @@ def sequence(lines, T, x0, y0, lh, fs, cw, bg):
 def recon():
     W, H = 900, 480
     T = 16.0
-    prompt = [("kamrad", GREEN, 'font-weight="700"'), ("@", DIM), ("lab", CYAN), (" ~ ", FG), ("$ ", GREEN)]
+    prompt = [("kamrad", IRIS, 'font-weight="700"'), ("@", MUTED), ("lab", FOAM), (" ~ ", TEXT), ("$ ", IRIS)]
     plen = sum(len(s[0]) for s in prompt)
 
     def cmd(text, at):
-        return {"segs": prompt + [(text, FG)], "at": at, "typed": True, "prefix_len": plen}
+        return {"segs": prompt + [(text, TEXT)], "at": at, "typed": True, "prefix_len": plen}
 
     def out(segs, at):
         return {"segs": segs, "at": at}
 
-    def kv(k, v, at, vc=FG):
-        return out([("  ", FG), (f"{k:<9}", AMBER), (v, vc)], at)
+    def kv(k, v, at, vc=TEXT):
+        return out([("  ", TEXT), (f"{k:<9}", GOLD), (v, vc)], at)
 
     t = 0.4
     lines = [cmd("file ./kamrad", t)]
     t += 1.2
-    lines.append(out([("./kamrad: ", FG), ("ELF 64-bit LSB pie executable", GREEN), (", x86-64, dynamically linked, not stripped", FG)], t))
+    lines.append(out([("./kamrad: ", TEXT), ("ELF 64-bit LSB pie executable", IRIS), (", x86-64, dynamically linked, not stripped", TEXT)], t))
     t += 0.6
     lines.append(cmd("checksec --file=./kamrad", t))
     t += 1.7
-    lines.append(out([("  RELRO ", DIM), ("Full", GREEN), ("   Canary ", DIM), ("found", GREEN),
-                      ("   NX ", DIM), ("enabled", GREEN), ("   PIE ", DIM), ("enabled", GREEN),
-                      ("   Symbols ", DIM), ("yes", AMBER)], t))
+    lines.append(out([("  RELRO ", MUTED), ("Full", IRIS), ("   Canary ", MUTED), ("found", IRIS),
+                      ("   NX ", MUTED), ("enabled", IRIS), ("   PIE ", MUTED), ("enabled", IRIS),
+                      ("   Symbols ", MUTED), ("yes", GOLD)], t))
     t += 0.6
     lines.append(cmd("./kamrad --info", t))
     t += 1.3
     info = [
-        ("user", "kamrad smeshnyavy", FG),
-        ("role", "malware researcher · reverse engineer · low-level dev", GREEN),
-        ("os", "GNU/Linux — Arch · Debian · NixOS", FG),
-        ("shell", "nushell", FG),
-        ("editor", "neovim", FG),
-        ("langs", "C · C++ · Rust · Python · x86-64 · ARM64 · AVR asm", FG),
-        ("tools", "IDA · Ghidra · radare2 · gdb · x64dbg · Wireshark", FG),
-        ("focus", "unpacking · anti-debug · YARA · linux internals", FG),
+        ("user", "kamrad smeshnyavy", TEXT),
+        ("role", "malware researcher · reverse engineer · low-level dev", IRIS),
+        ("os", "GNU/Linux — Arch · Debian · NixOS", TEXT),
+        ("shell", "nushell", TEXT),
+        ("editor", "neovim", TEXT),
+        ("langs", "C · C++ · Rust · Python · x86-64 · ARM64 · AVR asm", TEXT),
+        ("tools", "IDA · Ghidra · radare2 · gdb · x64dbg · Wireshark", TEXT),
+        ("focus", "unpacking · anti-debug · YARA · linux internals", TEXT),
     ]
-    lines.append(out([("  " + "─" * 66, DIM)], t))
+    lines.append(out([("  " + "─" * 66, MUTED)], t))
     for k, v, c in info:
         t += 0.18
         lines.append(kv(k, v, t, c))
     t += 0.18
-    lines.append(out([("  " + "─" * 66, DIM)], t))
+    lines.append(out([("  " + "─" * 66, MUTED)], t))
     t += 0.18
-    lines.append(out([("  ", FG), ("███", RED), ("███", AMBER), ("███", GREEN), ("███", CYAN),
-                      ("███", "#5B8CFF"), ("███", MAGENTA), ("███", FG)], t))
+    lines.append(out([("  ", TEXT), ("███", LOVE), ("███", GOLD), ("███", ROSE), ("███", PINE),
+                      ("███", FOAM), ("███", IRIS), ("███", TEXT)], t))
     t += 0.5
-    lines.append({"segs": prompt + [("█", GREEN, 'class="cur"')], "at": t})
+    lines.append({"segs": prompt + [("█", IRIS, 'class="cur"')], "at": t})
 
     body, css = sequence(lines, T, 24, 66, 22.5, 14, 8.43, WIN)
     return window(W, H, "kamrad@lab: ~ — nu", body, css)
@@ -354,33 +356,33 @@ def disasm():
     W, H = 900, 520
     fs, lh, x0, y0 = 13, 22, 22, 70
 
-    def ins(addr, byts, mn, ops, cmt="", arrow="           ", mc=FG):
-        segs = [("│", DIM), (arrow, AMBER), (f"0x{addr:08x}", DGREEN), ("  ", FG),
-                (f"{byts:<15}", DIM), (f"{mn:<6}", mc, 'font-weight="700"'), (f"{ops:<26}", FG)]
+    def ins(addr, byts, mn, ops, cmt="", arrow="           ", mc=TEXT):
+        segs = [("│", MUTED), (arrow, GOLD), (f"0x{addr:08x}", FOAM), ("  ", TEXT),
+                (f"{byts:<15}", MUTED), (f"{mn:<6}", mc, 'font-weight="700"'), (f"{ops:<26}", TEXT)]
         if cmt:
-            segs.append(("; " + cmt, AMBER if cmt.startswith('"') else DIM))
+            segs.append(("; " + cmt, GOLD if cmt.startswith('"') else MUTED))
         return segs
 
     rows = [
-        [("[0x00401136]> ", GREEN), ("pdf @ sym.main", FG)],
-        [("┌ ", DIM), ("148: ", DIM), ("int ", CYAN), ("main", GREEN, 'font-weight="700"'), (" (int argc, char **argv);", FG)],
-        [("│          ", DIM), ("; var int64_t curiosity @ rbp-0x8", DIM)],
-        ins(0x401136, "55", "push", "rbp", mc=MAGENTA),
+        [("[0x00401136]> ", IRIS), ("pdf @ sym.main", TEXT)],
+        [("┌ ", MUTED), ("148: ", MUTED), ("int ", FOAM), ("main", IRIS, 'font-weight="700"'), (" (int argc, char **argv);", TEXT)],
+        [("│          ", MUTED), ("; var int64_t curiosity @ rbp-0x8", MUTED)],
+        ins(0x401136, "55", "push", "rbp", mc=LOVE),
         ins(0x401137, "4889e5", "mov", "rbp, rsp"),
         ins(0x40113A, "488d3dc30e00.", "lea", "rdi, str.langs", '"C · C++ · Rust · Python"'),
-        ins(0x401141, "e8eafeffff", "call", "sym.learn", mc=GREEN),
+        ins(0x401141, "e8eafeffff", "call", "sym.learn", mc=IRIS),
         ins(0x401146, "488d3dd20e00.", "lea", "rdi, str.asm", '"x86-64 · ARM64 · AVR"'),
-        ins(0x40114D, "e8defeffff", "call", "sym.learn", mc=GREEN),
+        ins(0x40114D, "e8defeffff", "call", "sym.learn", mc=IRIS),
         ins(0x401152, "488d3de50e00.", "lea", "rdi, str.re", '"IDA · Ghidra · radare2"'),
-        ins(0x401159, "e8b2feffff", "call", "sym.reverse", mc=GREEN),
+        ins(0x401159, "e8b2feffff", "call", "sym.reverse", mc=IRIS),
         ins(0x40115E, "488d3df80e00.", "lea", "rdi, str.mal", '"unpack · YARA · IOCs"'),
-        ins(0x401165, "e8a6feffff", "call", "sym.analyze", mc=GREEN),
-        ins(0x40116A, "e8c1feffff", "call", "sym.read_phrack", arrow="      ┌──> ", mc=GREEN),
+        ins(0x401165, "e8a6feffff", "call", "sym.analyze", mc=IRIS),
+        ins(0x40116A, "e8c1feffff", "call", "sym.read_phrack", arrow="      ┌──> ", mc=IRIS),
         ins(0x40116F, "85c0", "test", "eax, eax", arrow="      ╎    "),
-        ins(0x401171, "75f7", "jne", "0x40116a", "never stop learning", arrow="      └──< ", mc=AMBER),
+        ins(0x401171, "75f7", "jne", "0x40116a", "never stop learning", arrow="      └──< ", mc=GOLD),
         ins(0x401173, "31c0", "xor", "eax, eax"),
-        ins(0x401175, "c9", "leave", "", mc=MAGENTA),
-        [("└", DIM)] + ins(0x401176, "c3", "ret", "", mc=MAGENTA)[1:],
+        ins(0x401175, "c9", "leave", "", mc=LOVE),
+        [("└", MUTED)] + ins(0x401176, "c3", "ret", "", mc=LOVE)[1:],
     ]
 
     # appear quickly, then a debugger "current instruction" bar steps through
@@ -403,16 +405,16 @@ def disasm():
     css += f"\n    .pc{{animation:pc {T}s infinite step-end}}@keyframes pc{{{''.join(kf)}}}"
     bar_y = y0 + first * lh - fs - 3
     bar = (
-        f'<g class="pc"><rect x="10" y="{bar_y}" width="{W - 20}" height="{lh - 1}" rx="3" fill="{GREEN}" fill-opacity="0.12"/>'
-        f'<rect x="10" y="{bar_y}" width="3" height="{lh - 1}" fill="{GREEN}"/>'
-        f'<text x="{W - 26}" y="{bar_y + fs + 2}" text-anchor="end" font-size="11" fill="{GREEN}">◀ rip</text></g>'
+        f'<g class="pc"><rect x="10" y="{bar_y}" width="{W - 20}" height="{lh - 1}" rx="3" fill="{IRIS}" fill-opacity="0.12"/>'
+        f'<rect x="10" y="{bar_y}" width="3" height="{lh - 1}" fill="{IRIS}"/>'
+        f'<text x="{W - 26}" y="{bar_y + fs + 2}" text-anchor="end" font-size="11" fill="{IRIS}">◀ rip</text></g>'
     )
 
     # status line under the listing
     status_y = y0 + len(rows) * lh + 14
     status = (
-        f'<text x="{x0}" y="{status_y}" font-size="12" fill="{DIM}">'
-        f'<tspan fill="{GREEN}">[0x00401136]</tspan> 19 instructions · 0 bugs found · ∞ iterations</text>'
+        f'<text x="{x0}" y="{status_y}" font-size="12" fill="{MUTED}">'
+        f'<tspan fill="{IRIS}">[0x00401136]</tspan> 19 instructions · 0 bugs found · ∞ iterations</text>'
     )
     return window(W, H, "r2 -A ./kamrad", bar + "\n  " + body + "\n  " + status, css)
 
@@ -428,9 +430,9 @@ def footer():
 <defs>
   {GLOW}
   <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
-    <stop offset="0" stop-color="{DIM}"/>
-    <stop offset="0.5" stop-color="{GREEN}"/>
-    <stop offset="1" stop-color="{DIM}"/>
+    <stop offset="0" stop-color="{MUTED}"/>
+    <stop offset="0.5" stop-color="{IRIS}"/>
+    <stop offset="1" stop-color="{MUTED}"/>
     <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="{W + 300} 0" dur="5s" repeatCount="indefinite"/>
   </linearGradient>
   <style>
@@ -442,11 +444,11 @@ def footer():
   </style>
 </defs>
 <rect width="{W}" height="{H}" rx="14" fill="{BG}"/>
-<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="14" fill="none" stroke="{GREEN}" stroke-opacity="0.3" stroke-width="1.5"/>
+<rect x="0.75" y="0.75" width="{W - 1.5}" height="{H - 1.5}" rx="14" fill="none" stroke="{IRIS}" stroke-opacity="0.3" stroke-width="1.5"/>
 <text x="500" y="40" text-anchor="middle" font-size="14" fill="url(#sweep)">{escape(bar)}</text>
-<text x="500" y="82" text-anchor="middle" font-size="13" fill="{DGREEN}"><tspan fill="{AMBER}">--[ greetz</tspan>  phrack staff · the mentor · aleph one · liveoverflow · pwn.college · ctftime</text>
-<text x="500" y="112" text-anchor="middle" font-size="13" fill="{DIM}" class="breathe">"This is our world now... the world of the electron and the switch."</text>
-<text x="500" y="146" text-anchor="middle" font-size="13" fill="{FG}"><tspan fill="{GREEN}">kamrad@lab ~ $</tspan> exit<tspan class="cur" fill="{GREEN}"> █</tspan></text>
+<text x="500" y="82" text-anchor="middle" font-size="13" fill="{FOAM}"><tspan fill="{GOLD}">--[ greetz</tspan>  phrack staff · the mentor · aleph one · liveoverflow · pwn.college · ctftime</text>
+<text x="500" y="112" text-anchor="middle" font-size="13" fill="{MUTED}" class="breathe">"This is our world now... the world of the electron and the switch."</text>
+<text x="500" y="146" text-anchor="middle" font-size="13" fill="{TEXT}"><tspan fill="{IRIS}">kamrad@lab ~ $</tspan> exit<tspan class="cur" fill="{IRIS}"> █</tspan></text>
 </svg>
 """
 

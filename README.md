@@ -4,14 +4,14 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=00FF41&center=true&vCenter=true&width=640&height=30&lines=%24+.%2Fkamrad+--dissect+sample.exe;%5B*%5D+unpacking+UPX+layer...+done;%5B*%5D+anti-debug+tricks+identified%3A+4;%5B%2B%5D+C2+config+extracted+from+.rdata;%5B%2B%5D+YARA+rule+written.+next+sample+please." alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=c4a7e7&center=true&vCenter=true&width=640&height=30&lines=%24+.%2Fkamrad+--dissect+sample.exe;%5B*%5D+unpacking+UPX+layer...+done;%5B*%5D+anti-debug+tricks+identified%3A+4;%5B%2B%5D+C2+config+extracted+from+.rdata;%5B%2B%5D+YARA+rule+written.+next+sample+please." alt="typing"/>
 
 <br/><br/>
 
-<a href="https://t.me/Deny_kamrad_smeshnyavy"><img src="https://img.shields.io/badge/telegram-@Deny-0a0a0a?style=for-the-badge&logo=telegram&logoColor=00FF41&labelColor=0a0a0a"/></a>
-<a href="https://t.me/WeekDaysSmeshnyavy"><img src="https://img.shields.io/badge/channel-WeekDays-0a0a0a?style=for-the-badge&logo=telegram&logoColor=FFB000&labelColor=0a0a0a"/></a>
-<a href="https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966"><img src="https://img.shields.io/badge/spotify-vibing-0a0a0a?style=for-the-badge&logo=spotify&logoColor=00FF41&labelColor=0a0a0a"/></a>
-<img src="https://komarev.com/ghpvc/?username=KamradSmeshnyavy&style=for-the-badge&color=0a0a0a&label=VIEWS" alt="views"/>
+<a href="https://t.me/Deny_kamrad_smeshnyavy"><img src="https://img.shields.io/badge/telegram-@Deny-191724?style=for-the-badge&logo=telegram&logoColor=c4a7e7&labelColor=191724"/></a>
+<a href="https://t.me/WeekDaysSmeshnyavy"><img src="https://img.shields.io/badge/channel-WeekDays-191724?style=for-the-badge&logo=telegram&logoColor=f6c177&labelColor=191724"/></a>
+<a href="https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966"><img src="https://img.shields.io/badge/spotify-vibing-191724?style=for-the-badge&logo=spotify&logoColor=c4a7e7&labelColor=191724"/></a>
+<img src="https://komarev.com/ghpvc/?username=KamradSmeshnyavy&style=for-the-badge&color=191724&label=VIEWS" alt="views"/>
 
 </div>
 
@@ -66,23 +66,23 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/x86--64_asm-0a0a0a?style=for-the-badge&logo=intel&logoColor=00FF41"/>
-<img src="https://img.shields.io/badge/ARM64-0a0a0a?style=for-the-badge&logo=arm&logoColor=00FF41"/>
-<img src="https://img.shields.io/badge/AVR_asm-0a0a0a?style=for-the-badge&logo=arduino&logoColor=00FF41"/>
-<img src="https://img.shields.io/badge/Nushell-0a0a0a?style=for-the-badge&logo=nushell&logoColor=00FF41"/>
+<img src="https://img.shields.io/badge/x86--64_asm-191724?style=for-the-badge&logo=intel&logoColor=c4a7e7"/>
+<img src="https://img.shields.io/badge/ARM64-191724?style=for-the-badge&logo=arm&logoColor=c4a7e7"/>
+<img src="https://img.shields.io/badge/AVR_asm-191724?style=for-the-badge&logo=arduino&logoColor=c4a7e7"/>
+<img src="https://img.shields.io/badge/Nushell-191724?style=for-the-badge&logo=nushell&logoColor=c4a7e7"/>
 
-<img src="https://img.shields.io/badge/IDA_Pro-0a0a0a?style=for-the-badge&logoColor=FFB000"/>
-<img src="https://img.shields.io/badge/Ghidra-0a0a0a?style=for-the-badge&logoColor=FFB000"/>
-<img src="https://img.shields.io/badge/radare2-0a0a0a?style=for-the-badge&logo=radar&logoColor=FFB000"/>
-<img src="https://img.shields.io/badge/x64dbg-0a0a0a?style=for-the-badge&logoColor=FFB000"/>
-<img src="https://img.shields.io/badge/GDB-0a0a0a?style=for-the-badge&logo=gnu&logoColor=FFB000"/>
-<img src="https://img.shields.io/badge/angr-0a0a0a?style=for-the-badge&logo=python&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/IDA_Pro-191724?style=for-the-badge&logoColor=f6c177"/>
+<img src="https://img.shields.io/badge/Ghidra-191724?style=for-the-badge&logoColor=f6c177"/>
+<img src="https://img.shields.io/badge/radare2-191724?style=for-the-badge&logo=radar&logoColor=f6c177"/>
+<img src="https://img.shields.io/badge/x64dbg-191724?style=for-the-badge&logoColor=f6c177"/>
+<img src="https://img.shields.io/badge/GDB-191724?style=for-the-badge&logo=gnu&logoColor=f6c177"/>
+<img src="https://img.shields.io/badge/angr-191724?style=for-the-badge&logo=python&logoColor=f6c177"/>
 
-<img src="https://img.shields.io/badge/Wireshark-0a0a0a?style=for-the-badge&logo=wireshark&logoColor=00E5FF"/>
-<img src="https://img.shields.io/badge/Nmap-0a0a0a?style=for-the-badge&logoColor=00E5FF"/>
-<img src="https://img.shields.io/badge/Burp_Suite-0a0a0a?style=for-the-badge&logo=burpsuite&logoColor=00E5FF"/>
-<img src="https://img.shields.io/badge/pwntools-0a0a0a?style=for-the-badge&logo=python&logoColor=00E5FF"/>
-<img src="https://img.shields.io/badge/BlackArch-0a0a0a?style=for-the-badge&logo=archlinux&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/Wireshark-191724?style=for-the-badge&logo=wireshark&logoColor=9ccfd8"/>
+<img src="https://img.shields.io/badge/Nmap-191724?style=for-the-badge&logoColor=9ccfd8"/>
+<img src="https://img.shields.io/badge/Burp_Suite-191724?style=for-the-badge&logo=burpsuite&logoColor=9ccfd8"/>
+<img src="https://img.shields.io/badge/pwntools-191724?style=for-the-badge&logo=python&logoColor=9ccfd8"/>
+<img src="https://img.shields.io/badge/BlackArch-191724?style=for-the-badge&logo=archlinux&logoColor=9ccfd8"/>
 
 </div>
 
@@ -141,10 +141,10 @@ _start:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=KamradSmeshnyavy&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=00FF41&text_color=C8FFD4&icon_color=FFB000&ring_color=00FF41&custom_title=%24%20gh%20stats%20--user%20kamrad" height="170" alt="stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KamradSmeshnyavy&layout=compact&langs_count=6&hide_border=true&bg_color=0a0a0a&title_color=00FF41&text_color=C8FFD4&custom_title=%24%20cloc%20.%2F*" height="170" alt="top languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=KamradSmeshnyavy&show_icons=true&hide_border=true&bg_color=191724&title_color=c4a7e7&text_color=e0def4&icon_color=f6c177&ring_color=c4a7e7&custom_title=%24%20gh%20stats%20--user%20kamrad" height="170" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KamradSmeshnyavy&layout=compact&langs_count=6&hide_border=true&bg_color=191724&title_color=c4a7e7&text_color=e0def4&custom_title=%24%20cloc%20.%2F*" height="170" alt="top languages"/>
 
-<img src="https://streak-stats.demolab.com/?user=KamradSmeshnyavy&hide_border=true&background=0a0a0a&stroke=00FF41&ring=00FF41&fire=FFB000&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=C8FFD4&sideLabels=C8FFD4&dates=4F6355" width="70%" alt="streak"/>
+<img src="https://streak-stats.demolab.com/?user=KamradSmeshnyavy&hide_border=true&background=191724&stroke=c4a7e7&ring=c4a7e7&fire=f6c177&currStreakNum=c4a7e7&sideNums=c4a7e7&currStreakLabel=e0def4&sideLabels=e0def4&dates=6e6a86" width="70%" alt="streak"/>
 
 <br/><br/>
 

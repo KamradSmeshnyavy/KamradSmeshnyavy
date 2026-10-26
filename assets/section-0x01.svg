@@ -6,9 +6,9 @@
   <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter>
   <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="0" y2="0">
-    <stop offset="0" stop-color="#4F6355"/>
-    <stop offset="0.5" stop-color="#00FF41"/>
-    <stop offset="1" stop-color="#4F6355"/>
+    <stop offset="0" stop-color="#6e6a86"/>
+    <stop offset="0.5" stop-color="#c4a7e7"/>
+    <stop offset="1" stop-color="#6e6a86"/>
     <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1260 0" dur="4.5s" repeatCount="indefinite"/>
   </linearGradient>
   <style>
@@ -17,7 +17,7 @@
     @keyframes blink { 0%,100% {opacity:1} 50% {opacity:0} }
   </style>
 </defs>
-<rect width="1000" height="56" rx="10" fill="#0a0a0a"/>
-<rect x="0.75" y="0.75" width="998.5" height="54.5" rx="10" fill="none" stroke="#00FF41" stroke-opacity="0.18"/>
-<text x="500" y="33" text-anchor="middle" font-size="14"><tspan fill="url(#sweep)" >|=----------------------------------=</tspan><tspan fill="#00FF41" >[ </tspan><tspan fill="#FFB000" font-weight="700">0x01</tspan><tspan fill="#00A82D" > :: </tspan><tspan fill="#00FF41" font-weight="700">Introduction</tspan><tspan fill="#00FF41" > ]</tspan><tspan fill="url(#sweep)" >=----------------------------------=|</tspan></text>
+<rect width="1000" height="56" rx="10" fill="#191724"/>
+<rect x="0.75" y="0.75" width="998.5" height="54.5" rx="10" fill="none" stroke="#c4a7e7" stroke-opacity="0.18"/>
+<text x="500" y="33" text-anchor="middle" font-size="14"><tspan fill="url(#sweep)" >|=----------------------------------=</tspan><tspan fill="#c4a7e7" >[ </tspan><tspan fill="#f6c177" font-weight="700">0x01</tspan><tspan fill="#9ccfd8" > :: </tspan><tspan fill="#c4a7e7" font-weight="700">Introduction</tspan><tspan fill="#c4a7e7" > ]</tspan><tspan fill="url(#sweep)" >=----------------------------------=|</tspan></text>
 </svg>
