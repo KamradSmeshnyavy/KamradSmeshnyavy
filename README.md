@@ -1,124 +1,93 @@
-
 <div align="center">
 
-<!-- Matrix-style animated header -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,50:003B00,100:00FF41&height=200&section=header&text=KAMRAD&fontSize=80&fontColor=00FF41&animation=twinkling&fontAlignY=35&desc=%E2%96%88%20Malware%20Researcher%20%E2%96%88%20Reverse%20Engineer%20%E2%96%88%20Low-Level%20Dev%20%E2%96%88&descAlignY=55&descSize=14&descColor=00CC33" width="100%"/>
+<img src="./assets/banner.svg" width="100%" alt="KAMRAD — ==Phrack Inc.== Volume 0x45, Issue 0x01"/>
 
-<br>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%24+whoami;Malware+Researcher+%7C+Reverse+Engineer+%7C+Low-Level+Dev" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=900&color=00FF41&center=true&vCenter=true&width=640&height=30&lines=%24+.%2Fkamrad+--dissect+sample.exe;%5B*%5D+unpacking+UPX+layer...+done;%5B*%5D+anti-debug+tricks+identified%3A+4;%5B%2B%5D+C2+config+extracted+from+.rdata;%5B%2B%5D+YARA+rule+written.+next+sample+please." alt="typing"/>
 
-<br>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=2000&pause=500&color=00CC33&center=true&vCenter=true&repeat=true&width=435&lines=%5B*%5D+Initializing+threat+analysis+framework...;%5B*%5D+Loading+YARA+rules...;%5B*%5D+Scanning+PE+headers...;%5B*%5D+Extracting+IOCs...;%5B%E2%9C%93%5D+System+ready." alt="Status" />
-
-<br>
-
-```
-┌──────────────────────────────────────────────────────────┐
-│  [*] STATUS: ACTIVE          [*] THREAT LEVEL: ELEVATED  │
-│  [*] LOCATION: /dev/null     [*] UPTIME: ∞               │
-└──────────────────────────────────────────────────────────┘
-```
-
-[![telegram badge](https://img.shields.io/badge/Telegram-@Deny-000000?style=flat-square&logo=telegram&logoColor=00FF41)](https://t.me/Deny_kamrad_smeshnyavy)
-[![Spotify](https://img.shields.io/badge/Spotify-Vibing-000000?style=flat-square&logo=spotify&logoColor=00FF41)](https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966)
-
-<img src="https://komarev.com/ghpvc/?username=KamradSmeshnyavy&style=flat-square&color=00FF41&label=PROFILE+VIEWS" alt="Profile views"/>
+<a href="https://t.me/Deny_kamrad_smeshnyavy"><img src="https://img.shields.io/badge/telegram-@Deny-0a0a0a?style=for-the-badge&logo=telegram&logoColor=00FF41&labelColor=0a0a0a"/></a>
+<a href="https://t.me/WeekDaysSmeshnyavy"><img src="https://img.shields.io/badge/channel-WeekDays-0a0a0a?style=for-the-badge&logo=telegram&logoColor=FFB000&labelColor=0a0a0a"/></a>
+<a href="https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966"><img src="https://img.shields.io/badge/spotify-vibing-0a0a0a?style=for-the-badge&logo=spotify&logoColor=00FF41&labelColor=0a0a0a"/></a>
+<img src="https://komarev.com/ghpvc/?username=KamradSmeshnyavy&style=for-the-badge&color=0a0a0a&label=VIEWS" alt="views"/>
 
 </div>
 
----
+```text
+                              ==Phrack Inc.==
 
-### `> cat /proc/self/about`
+               Volume 0x45, Issue 0x01, Phile #0x01 of 0x07
 
-```brainfuck
-++++++++++[>+++++++>++++++++++>+++>+<<<<-]   // init
+|=-----------------------------------------------------------------------=|
+|=--------------=[ K A M R A D    S M E S H N Y A V Y ]=-----------------=|
+|=-----------------------------------------------------------------------=|
 
-I don't create malware. I dissect it.
-I don't break systems. I understand how they break.
-Low-level is not a skill level — it's where the real code lives.
+  0x01  Introduction ................................................ kamrad
+  0x02  Arsenal: tools of the trade ................................. kamrad
+  0x03  Recon: static analysis of ./kamrad .......................... kamrad
+  0x04  Disassembly of self ......................................... kamrad
+  0x05  Telemetry ................................................... kamrad
+  0x06  Greetz & EOF ................................................ kamrad
 ```
 
-- 🔬 Currently focused on **Malware Analysis** & **Reverse Engineering**
-- 🐧 Deep into **GNU/Linux internals** & **kernel exploitation**
-- 🦀 Writing tools in **Rust**, **C**, and **x86-64 ASM**
-- 💀 Analyzing binaries, unpacking samples, tracing syscalls
-- 📬 Find me on Telegram: **[WeekDays](https://t.me/WeekDaysSmeshnyavy)**
-- ⚡ Fun fact: `rm -rf /` doesn't work without `--no-preserve-root`
+<img src="./assets/section-0x01.svg" width="100%" alt="0x01 :: Introduction"/>
 
----
+```text
+--[ 1 - whoami
 
-### `> cat /etc/arsenal`
+    Malware researcher, reverse engineer and low-level developer.
+
+    I don't create malware. I dissect it.
+    I don't break systems. I understand how they break.
+    Low-level is not a skill level -- it's where the real code lives.
+
+--[ 2 - current research
+
+    [*] malware analysis   :: unpacking, anti-debug bypass, C2 config extraction
+    [*] reverse engineering :: PE / ELF internals, packers, obfuscation
+    [*] GNU/Linux          :: kernel internals, syscalls, tracing
+    [*] tooling            :: Rust, C and x86-64 assembly
+
+--[ 3 - fun fact
+
+    `rm -rf /` doesn't work without `--no-preserve-root`.
+```
+
+> *"This is our world now... the world of the electron and the switch, the beauty of the baud."*
+> — The Mentor, *The Conscience of a Hacker*, Phrack #7
+
+<img src="./assets/section-0x02.svg" width="100%" alt="0x02 :: Arsenal"/>
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║                    ◈ OFFENSIVE TOOLKIT ◈                     ║
-╚══════════════════════════════════════════════════════════════╝
-```
+<img src="https://skillicons.dev/icons?i=c,cpp,rust,py,bash,lua,nix,js,html,css,linux,arch,neovim,vscode,git,sqlite,postgres,firebase&theme=dark&perline=9" alt="skills"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/x86--64_asm-0a0a0a?style=for-the-badge&logo=intel&logoColor=00FF41"/>
+<img src="https://img.shields.io/badge/ARM64-0a0a0a?style=for-the-badge&logo=arm&logoColor=00FF41"/>
+<img src="https://img.shields.io/badge/AVR_asm-0a0a0a?style=for-the-badge&logo=arduino&logoColor=00FF41"/>
+<img src="https://img.shields.io/badge/Nushell-0a0a0a?style=for-the-badge&logo=nushell&logoColor=00FF41"/>
+
+<img src="https://img.shields.io/badge/IDA_Pro-0a0a0a?style=for-the-badge&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/Ghidra-0a0a0a?style=for-the-badge&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/radare2-0a0a0a?style=for-the-badge&logo=radar&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/x64dbg-0a0a0a?style=for-the-badge&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/GDB-0a0a0a?style=for-the-badge&logo=gnu&logoColor=FFB000"/>
+<img src="https://img.shields.io/badge/angr-0a0a0a?style=for-the-badge&logo=python&logoColor=FFB000"/>
+
+<img src="https://img.shields.io/badge/Wireshark-0a0a0a?style=for-the-badge&logo=wireshark&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/Nmap-0a0a0a?style=for-the-badge&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/Burp_Suite-0a0a0a?style=for-the-badge&logo=burpsuite&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/pwntools-0a0a0a?style=for-the-badge&logo=python&logoColor=00E5FF"/>
+<img src="https://img.shields.io/badge/BlackArch-0a0a0a?style=for-the-badge&logo=archlinux&logoColor=00E5FF"/>
 
 </div>
 
-![C](https://img.shields.io/badge/C-000000?style=flat-square&logo=c&logoColor=00FF41)
-![C++](https://img.shields.io/badge/C%2B%2B-000000?style=flat-square&logo=c%2B%2B&logoColor=00FF41)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=00FF41)
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00FF41)
-![x86 ASM](https://img.shields.io/badge/x86--64_ASM-000000?style=flat-square&logo=intel&logoColor=00FF41)
-![ARM64](https://img.shields.io/badge/ARM64-000000?style=flat-square&logo=arm&logoColor=00FF41)
-![AVR ASM](https://img.shields.io/badge/AVR_ASM-000000?style=flat-square&logoColor=00FF41)
-![Bash](https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=00FF41)
-![Nushell](https://img.shields.io/badge/Nushell-000000?style=flat-square&logo=nushell&logoColor=00FF41)
-![Lua](https://img.shields.io/badge/Lua-000000?style=flat-square&logo=lua&logoColor=00FF41)
-![Nix](https://img.shields.io/badge/Nix-000000?style=flat-square&logo=nixos&logoColor=00FF41)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=00FF41)
-![HTML](https://img.shields.io/badge/HTML-000000?style=flat-square&logo=html5&logoColor=00FF41)
-![CSS](https://img.shields.io/badge/CSS-000000?style=flat-square&logo=css3&logoColor=00FF41)
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                  ◈ ANALYSIS & RECON TOOLS ◈                  ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-![BlackArch](https://img.shields.io/badge/BlackArch-000000?style=flat-square&logo=archlinux&logoColor=00FF41)
-![IDA Pro](https://img.shields.io/badge/IDA_Pro-000000?style=flat-square&logoColor=00FF41)
-![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=flat-square&logoColor=00FF41)
-![radare2](https://img.shields.io/badge/radare2-000000?style=flat-square&logoColor=00FF41)
-![x64dbg](https://img.shields.io/badge/x64dbg-000000?style=flat-square&logoColor=00FF41)
-![GDB](https://img.shields.io/badge/GDB-000000?style=flat-square&logo=gnu&logoColor=00FF41)
-![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=flat-square&logo=wireshark&logoColor=00FF41)
-![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square&logo=nmap&logoColor=00FF41)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=flat-square&logo=burpsuite&logoColor=00FF41)
-![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=flat-square&logo=metasploit&logoColor=00FF41)
-![pwntools](https://img.shields.io/badge/pwntools-000000?style=flat-square&logo=python&logoColor=00FF41)
-![angr](https://img.shields.io/badge/angr-000000?style=flat-square&logo=python&logoColor=00FF41)
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════╗
-║                ◈ PLATFORMS & ENVIRONMENTS ◈                  ║
-╚══════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
-![Linux](https://img.shields.io/badge/GNU%2FLinux-000000?style=flat-square&logo=linux&logoColor=00FF41)
-![Neovim](https://img.shields.io/badge/Neovim-000000?style=flat-square&logo=neovim&logoColor=00FF41)
-![VS Code](https://img.shields.io/badge/VS_Code-000000?style=flat-square&logo=visualstudiocode&logoColor=00FF41)
-![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=00FF41)
-![SQLite](https://img.shields.io/badge/SQLite-000000?style=flat-square&logo=sqlite&logoColor=00FF41)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=flat-square&logo=postgresql&logoColor=00FF41)
-
----
-
-### `> objdump -d ./skills.bin`
+<details>
+<summary><code>$ objdump -d ./skills.bin</code></summary>
 
 ```nasm
 ; ===============================================
@@ -135,7 +104,7 @@ section .data
     tools:
         analysis        db "IDA Pro, Ghidra, radare2, x64dbg, gdb"
         monitoring      db "Wireshark, tcpdump, strace, ltrace, procmon"
-        exploitation    db "pwntools, ROPgadget, msfvenom, angr"
+        frameworks      db "pwntools, angr, Burp Suite"
 
     platforms:
         primary         db "GNU/Linux (Arch, Debian, NixOS)"
@@ -148,88 +117,47 @@ section .data
 section .text
     global _start
 _start:
-    ; >> CURRENT OBJECTIVE: understand the threat landscape
     mov rax, 0x1337
     lea rdi, [rel arsenal]
     call analyze_sample
     jmp _start              ; never stop learning
 ```
 
----
+</details>
+
+<img src="./assets/section-0x03.svg" width="100%" alt="0x03 :: Recon"/>
+
+<div align="center">
+<img src="./assets/recon.svg" width="90%" alt="static analysis of ./kamrad"/>
+</div>
+
+<img src="./assets/section-0x04.svg" width="100%" alt="0x04 :: Disassembly of self"/>
+
+<div align="center">
+<img src="./assets/disasm.svg" width="90%" alt="r2 disassembly of sym.main"/>
+</div>
+
+<img src="./assets/section-0x05.svg" width="100%" alt="0x05 :: Telemetry"/>
 
 <div align="center">
 
-### `> tail -f /var/log/activity.log`
+<img src="https://github-readme-stats.vercel.app/api?username=KamradSmeshnyavy&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=00FF41&text_color=C8FFD4&icon_color=FFB000&ring_color=00FF41&custom_title=%24%20gh%20stats%20--user%20kamrad" height="170" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KamradSmeshnyavy&layout=compact&langs_count=6&hide_border=true&bg_color=0a0a0a&title_color=00FF41&text_color=C8FFD4&custom_title=%24%20cloc%20.%2F*" height="170" alt="top languages"/>
 
-```
-[2024-XX-XX 03:14:15] [INFO]  Reversing packed PE binary...
-[2024-XX-XX 03:14:16] [WARN]  Anti-debug detected: IsDebuggerPresent()
-[2024-XX-XX 03:14:17] [INFO]  Bypassing... patching ZwQueryInformationProcess
-[2024-XX-XX 03:14:18] [OK]    Unpacked successfully. Dumping to disk...
-[2024-XX-XX 03:14:19] [INFO]  Extracting C2 config from .rdata section
-[2024-XX-XX 03:14:20] [OK]    IOCs extracted. Writing YARA rule...
-[2024-XX-XX 03:14:21] [INFO]  ████████████████████████████ 100%
-[2024-XX-XX 03:14:22] [OK]    Analysis complete. Report generated.
-```
+<img src="https://streak-stats.demolab.com/?user=KamradSmeshnyavy&hide_border=true&background=0a0a0a&stroke=00FF41&ring=00FF41&fire=FFB000&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=C8FFD4&sideLabels=C8FFD4&dates=4F6355" width="70%" alt="streak"/>
 
----
+<br/><br/>
 
-### `> cat /var/log/github_stats.log`
-
-<a href="https://github.com/KamradSmeshnyavy">
-<img src="https://github-readme-stats.vercel.app/api?username=KamradSmeshnyavy&show_icons=true&hide_border=true&bg_color=000000&title_color=00FF41&text_color=00CC33&icon_color=00FF41&ring_color=00FF41" width="49%" alt="Stats"/>
-</a>
-<a href="https://github.com/KamradSmeshnyavy">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=KamradSmeshnyavy&hide_border=true&background=000000&stroke=00FF41&ring=00FF41&fire=FF4500&currStreakNum=00FF41&sideNums=00FF41&currStreakLabel=00CC33&sideLabels=00CC33&dates=006600" width="49%" alt="Streak"/>
-</a>
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=KamradSmeshnyavy&bg_color=000000&color=00FF41&line=00FF41&point=00CC33&area=true&area_color=003B00&hide_border=true&custom_title=%24%20netstat%20-an%20%7C%20grep%20ESTABLISHED%20(Contribution%20Activity)" width="95%" alt="Activity Graph"/>
-
----
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│   "The quieter you become,                              │
-│        the more you are able to hear."                  │
-│                                          — Kali Linux   │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-<details>
-<summary> <b>📡 Spotify C2 Beacon</b> </summary>
-<br>
-
-[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/cgd7kum73cyouiljqlogjikh7?si=c606775b542d4966)
-
-</details>
-
----
-
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Face%20with%20Spiral%20Eyes.png" width="8%" alt="Segfault"/>
-&nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Relieved%20Face.png" width="8%" alt="It compiles"/>
-&nbsp;&nbsp;&nbsp;→&nbsp;&nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Astonished%20Face.png" width="8%" alt="But how?"/>
-
-```
-SEGFAULT → IT COMPILES → BUT HOW?!     (the eternal cycle)
-```
-
-<br>
-
-<!-- Snake animation - generated by GitHub Actions -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-snake.svg"/>
+  <img alt="snake eating contributions" src="https://raw.githubusercontent.com/KamradSmeshnyavy/KamradSmeshnyavy/output/github-snake-dark.svg"/>
 </picture>
 
-<br>
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:003B00,100:00FF41&height=100&section=footer&fontSize=12&fontColor=00FF41" width="100%"/>
+<img src="./assets/section-0x06.svg" width="100%" alt="0x06 :: Greetz"/>
 
+<div align="center">
+<img src="./assets/footer.svg" width="100%" alt="EOF"/>
 </div>

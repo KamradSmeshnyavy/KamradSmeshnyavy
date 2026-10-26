@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="170" viewBox="0 0 1000 170" role="img" aria-label="EOF">
+<defs>
+  
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="2.2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+  <linearGradient id="sweep" gradientUnits="userSpaceOnUse" x1="-300" y1="0" x2="0" y2="0">
+    <stop offset="0" stop-color="#4F6355"/>
+    <stop offset="0.5" stop-color="#00FF41"/>
+    <stop offset="1" stop-color="#4F6355"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1300 0" dur="5s" repeatCount="indefinite"/>
+  </linearGradient>
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace; white-space: pre; font-variant-ligatures: none; font-feature-settings: 'liga' 0, 'calt' 0; }
+    .cur { animation: blink 1s infinite steps(1); }
+    @keyframes blink { 0%,100% {opacity:1} 50% {opacity:0} }
+    .breathe { animation: br 4s ease-in-out infinite; }
+    @keyframes br { 0%,100% {opacity:.55} 50% {opacity:1} }
+  </style>
+</defs>
+<rect width="1000" height="170" rx="14" fill="#0a0a0a"/>
+<rect x="0.75" y="0.75" width="998.5" height="168.5" rx="14" fill="none" stroke="#00FF41" stroke-opacity="0.3" stroke-width="1.5"/>
+<text x="500" y="40" text-anchor="middle" font-size="14" fill="url(#sweep)">|=-----------------------------------------=[ EOF ]=------------------------------------------=|</text>
+<text x="500" y="82" text-anchor="middle" font-size="13" fill="#00A82D"><tspan fill="#FFB000">--[ greetz</tspan>  phrack staff · the mentor · aleph one · liveoverflow · pwn.college · ctftime</text>
+<text x="500" y="112" text-anchor="middle" font-size="13" fill="#4F6355" class="breathe">"This is our world now... the world of the electron and the switch."</text>
+<text x="500" y="146" text-anchor="middle" font-size="13" fill="#C8FFD4"><tspan fill="#00FF41">kamrad@lab ~ $</tspan> exit<tspan class="cur" fill="#00FF41"> █</tspan></text>
+</svg>

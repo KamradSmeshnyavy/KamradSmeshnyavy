@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" role="img" aria-label="kamrad@lab: ~ — nu">
+<defs>
+  
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="2.2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+  
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+  <rect width="4" height="2" fill="#000" fill-opacity="0.35"/>
+</pattern>
+  <clipPath id="frame"><rect width="900" height="480" rx="12"/></clipPath>
+  
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace; white-space: pre; font-variant-ligatures: none; font-feature-settings: 'liga' 0, 'calt' 0; }
+    .cur { animation: blink 1s infinite steps(1); }
+    @keyframes blink { 0%,100% {opacity:1} 50% {opacity:0} }
+    .l0{animation:l0 16.0s linear infinite}@keyframes l0{0%,2.50%{opacity:0}2.55%,95%{opacity:1}98%,100%{opacity:0}}
+    .c0{animation:c0 16.0s linear infinite}@keyframes c0{0%,2.50%{transform:translateX(0);animation-timing-function:steps(13,end)}6.97%{transform:translateX(109.6px);opacity:1}10.72%,100%{transform:translateX(109.6px);opacity:0}}
+    .l1{animation:l1 16.0s linear infinite}@keyframes l1{0%,10.00%{opacity:0}10.05%,95%{opacity:1}98%,100%{opacity:0}}
+    .l2{animation:l2 16.0s linear infinite}@keyframes l2{0%,13.75%{opacity:0}13.80%,95%{opacity:1}98%,100%{opacity:0}}
+    .c2{animation:c2 16.0s linear infinite}@keyframes c2{0%,13.75%{transform:translateX(0);animation-timing-function:steps(24,end)}22.00%{transform:translateX(202.3px);opacity:1}25.75%,100%{transform:translateX(202.3px);opacity:0}}
+    .l3{animation:l3 16.0s linear infinite}@keyframes l3{0%,24.38%{opacity:0}24.43%,95%{opacity:1}98%,100%{opacity:0}}
+    .l4{animation:l4 16.0s linear infinite}@keyframes l4{0%,28.12%{opacity:0}28.18%,95%{opacity:1}98%,100%{opacity:0}}
+    .c4{animation:c4 16.0s linear infinite}@keyframes c4{0%,28.12%{transform:translateX(0);animation-timing-function:steps(15,end)}33.28%{transform:translateX(126.4px);opacity:1}37.03%,100%{transform:translateX(126.4px);opacity:0}}
+    .l5{animation:l5 16.0s linear infinite}@keyframes l5{0%,36.25%{opacity:0}36.30%,95%{opacity:1}98%,100%{opacity:0}}
+    .l6{animation:l6 16.0s linear infinite}@keyframes l6{0%,37.38%{opacity:0}37.42%,95%{opacity:1}98%,100%{opacity:0}}
+    .l7{animation:l7 16.0s linear infinite}@keyframes l7{0%,38.50%{opacity:0}38.55%,95%{opacity:1}98%,100%{opacity:0}}
+    .l8{animation:l8 16.0s linear infinite}@keyframes l8{0%,39.62%{opacity:0}39.67%,95%{opacity:1}98%,100%{opacity:0}}
+    .l9{animation:l9 16.0s linear infinite}@keyframes l9{0%,40.75%{opacity:0}40.80%,95%{opacity:1}98%,100%{opacity:0}}
+    .l10{animation:l10 16.0s linear infinite}@keyframes l10{0%,41.87%{opacity:0}41.92%,95%{opacity:1}98%,100%{opacity:0}}
+    .l11{animation:l11 16.0s linear infinite}@keyframes l11{0%,43.00%{opacity:0}43.05%,95%{opacity:1}98%,100%{opacity:0}}
+    .l12{animation:l12 16.0s linear infinite}@keyframes l12{0%,44.12%{opacity:0}44.17%,95%{opacity:1}98%,100%{opacity:0}}
+    .l13{animation:l13 16.0s linear infinite}@keyframes l13{0%,45.25%{opacity:0}45.30%,95%{opacity:1}98%,100%{opacity:0}}
+    .l14{animation:l14 16.0s linear infinite}@keyframes l14{0%,46.37%{opacity:0}46.42%,95%{opacity:1}98%,100%{opacity:0}}
+    .l15{animation:l15 16.0s linear infinite}@keyframes l15{0%,47.50%{opacity:0}47.55%,95%{opacity:1}98%,100%{opacity:0}}
+    .l16{animation:l16 16.0s linear infinite}@keyframes l16{0%,50.62%{opacity:0}50.67%,95%{opacity:1}98%,100%{opacity:0}}
+  </style>
+</defs>
+<g clip-path="url(#frame)">
+  <rect width="900" height="480" fill="#0d0f0d"/>
+  <rect width="900" height="36" fill="#141714"/>
+  <rect y="36" width="900" height="1" fill="#00FF41" fill-opacity="0.18"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F57"/>
+  <circle cx="42" cy="18" r="6" fill="#FEBC2E"/>
+  <circle cx="62" cy="18" r="6" fill="#28C840"/>
+  <text x="450.0" y="23" text-anchor="middle" font-size="12.5" fill="#4F6355">kamrad@lab: ~ — nu</text>
+  <text class="l0" x="24" y="66.0" font-size="14"><tspan fill="#00FF41" font-weight="700">kamrad</tspan><tspan fill="#4F6355" >@</tspan><tspan fill="#00E5FF" >lab</tspan><tspan fill="#C8FFD4" > ~ </tspan><tspan fill="#00FF41" >$ </tspan><tspan fill="#C8FFD4" >file ./kamrad</tspan></text>
+  <g class="c0"><rect x="150.45" y="52.0" width="127.6" height="22.5" fill="#0d0f0d"/><rect x="150.45" y="55.0" width="8.4" height="15" fill="#00FF41" opacity="0.85"/></g>
+  <text class="l1" x="24" y="88.5" font-size="14"><tspan fill="#C8FFD4" >./kamrad: </tspan><tspan fill="#00FF41" >ELF 64-bit LSB pie executable</tspan><tspan fill="#C8FFD4" >, x86-64, dynamically linked, not stripped</tspan></text>
+  <text class="l2" x="24" y="111.0" font-size="14"><tspan fill="#00FF41" font-weight="700">kamrad</tspan><tspan fill="#4F6355" >@</tspan><tspan fill="#00E5FF" >lab</tspan><tspan fill="#C8FFD4" > ~ </tspan><tspan fill="#00FF41" >$ </tspan><tspan fill="#C8FFD4" >checksec --file=./kamrad</tspan></text>
+  <g class="c2"><rect x="150.45" y="97.0" width="220.3" height="22.5" fill="#0d0f0d"/><rect x="150.45" y="100.0" width="8.4" height="15" fill="#00FF41" opacity="0.85"/></g>
+  <text class="l3" x="24" y="133.5" font-size="14"><tspan fill="#4F6355" >  RELRO </tspan><tspan fill="#00FF41" >Full</tspan><tspan fill="#4F6355" >   Canary </tspan><tspan fill="#00FF41" >found</tspan><tspan fill="#4F6355" >   NX </tspan><tspan fill="#00FF41" >enabled</tspan><tspan fill="#4F6355" >   PIE </tspan><tspan fill="#00FF41" >enabled</tspan><tspan fill="#4F6355" >   Symbols </tspan><tspan fill="#FFB000" >yes</tspan></text>
+  <text class="l4" x="24" y="156.0" font-size="14"><tspan fill="#00FF41" font-weight="700">kamrad</tspan><tspan fill="#4F6355" >@</tspan><tspan fill="#00E5FF" >lab</tspan><tspan fill="#C8FFD4" > ~ </tspan><tspan fill="#00FF41" >$ </tspan><tspan fill="#C8FFD4" >./kamrad --info</tspan></text>
+  <g class="c4"><rect x="150.45" y="142.0" width="144.4" height="22.5" fill="#0d0f0d"/><rect x="150.45" y="145.0" width="8.4" height="15" fill="#00FF41" opacity="0.85"/></g>
+  <text class="l5" x="24" y="178.5" font-size="14"><tspan fill="#4F6355" >  ──────────────────────────────────────────────────────────────────</tspan></text>
+  <text class="l6" x="24" y="201.0" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >user     </tspan><tspan fill="#C8FFD4" >kamrad smeshnyavy</tspan></text>
+  <text class="l7" x="24" y="223.5" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >role     </tspan><tspan fill="#00FF41" >malware researcher · reverse engineer · low-level dev</tspan></text>
+  <text class="l8" x="24" y="246.0" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >os       </tspan><tspan fill="#C8FFD4" >GNU/Linux — Arch · Debian · NixOS</tspan></text>
+  <text class="l9" x="24" y="268.5" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >shell    </tspan><tspan fill="#C8FFD4" >nushell</tspan></text>
+  <text class="l10" x="24" y="291.0" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >editor   </tspan><tspan fill="#C8FFD4" >neovim</tspan></text>
+  <text class="l11" x="24" y="313.5" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >langs    </tspan><tspan fill="#C8FFD4" >C · C++ · Rust · Python · x86-64 · ARM64 · AVR asm</tspan></text>
+  <text class="l12" x="24" y="336.0" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >tools    </tspan><tspan fill="#C8FFD4" >IDA · Ghidra · radare2 · gdb · x64dbg · Wireshark</tspan></text>
+  <text class="l13" x="24" y="358.5" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FFB000" >focus    </tspan><tspan fill="#C8FFD4" >unpacking · anti-debug · YARA · linux internals</tspan></text>
+  <text class="l14" x="24" y="381.0" font-size="14"><tspan fill="#4F6355" >  ──────────────────────────────────────────────────────────────────</tspan></text>
+  <text class="l15" x="24" y="403.5" font-size="14"><tspan fill="#C8FFD4" >  </tspan><tspan fill="#FF3355" >███</tspan><tspan fill="#FFB000" >███</tspan><tspan fill="#00FF41" >███</tspan><tspan fill="#00E5FF" >███</tspan><tspan fill="#5B8CFF" >███</tspan><tspan fill="#FF4FD8" >███</tspan><tspan fill="#C8FFD4" >███</tspan></text>
+  <text class="l16" x="24" y="426.0" font-size="14"><tspan fill="#00FF41" font-weight="700">kamrad</tspan><tspan fill="#4F6355" >@</tspan><tspan fill="#00E5FF" >lab</tspan><tspan fill="#C8FFD4" > ~ </tspan><tspan fill="#00FF41" >$ </tspan><tspan fill="#00FF41" class="cur">█</tspan></text>
+  <rect width="900" height="480" fill="url(#scan)" opacity="0.35"/>
+</g>
+<rect x="0.75" y="0.75" width="898.5" height="478.5" rx="12" fill="none" stroke="#00FF41" stroke-opacity="0.3" stroke-width="1.5"/>
+</svg>
